@@ -1,0 +1,40 @@
+
+		
+nav{
+	background:black;
+	width:100%;
+	overflow:auto;
+}
+		
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+		
+li{
+	float:left;
+}
+		
+nav a{
+	width:124px;
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	font-size:18px;
+	color:white;
+	padding:20px 10px;
+	
+}
+		
+nav a:hover{
+	background:rgb(0, 153, 51);
+	color:black;
+}
+
+body{
+	background:black;
+	color:white;
+	margin-right:18%;
+	margin-left:18%;
+}
