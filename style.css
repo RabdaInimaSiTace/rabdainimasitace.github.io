@@ -1,40 +1,49 @@
-
-		
 nav{
-	background:black;
+	text-align:center;
 	width:100%;
 	overflow:auto;
+	display:flex;
 }
-		
+
 ul{
 	margin:0;
 	padding:0;
 	list-style:none;
 }
-		
+
 li{
 	float:left;
 }
-		
+
 nav a{
 	width:124px;
 	display:block;
 	text-decoration:none;
-	text-align:center;
-	font-size:18px;
+	padding:1em;
 	color:white;
-	padding:20px 10px;
-	
+	font-size:18px;
+	text-align:center;
+	letter-spacing: 0.9px;
 }
-		
+
 nav a:hover{
 	background:rgb(0, 153, 51);
 	color:black;
 }
 
+
 body{
-	background:black;
+	background-color:black;
 	color:white;
-	margin-right:18%;
+	margin-left:2em;
+	margin-right:auto;
+	box-sizing:border-box;
+	font-family:roboto, sans-serif;
+}
+
+h1, p{
 	margin-left:18%;
+	margin-right:18%;
+	letter-spacing: 0.9px;
+	line-height: 1.3;
 }
